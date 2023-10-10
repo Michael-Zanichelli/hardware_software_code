@@ -6,10 +6,12 @@ def conversation():
     print("Do you like coding?")
     answer = input("Answer > ")
     print()
-    if answer == "yes":
+    if answer.lower() == "yes":
         print("That's good.")
+    elif answer.lower() == "no":
+        print("That's too bad.")
     else:
-        print("That's too bad!")
+        print("I don't understand.")
     input()
     print("Thanks for talking with me!")
     input()
