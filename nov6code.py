@@ -1,0 +1,27 @@
+def main():
+    print ('=============================================================================================')
+    print()
+    print("Numbers")
+    nums = [3, 41, 12, 9, 74, 15]
+    print(nums)
+    print()
+    print("Length")
+    print(len(nums))
+    print()
+    print("Maximum")
+    print(max(nums))
+    print()
+    print("Minimum")
+    print(min(nums))
+    print()
+    print("Sum")
+    print(sum(nums))
+    print()
+    print("Average")
+    avg = sum(nums) / len(nums)
+    print(avg)
+    print()
+    input ('=============================== [ >> Press ENTER to exit. << ] ==============================')
+
+if __name__ == "__main__":
+    main()
