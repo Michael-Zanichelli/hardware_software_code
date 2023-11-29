@@ -1,11 +1,9 @@
-answer = 'QUIT'
-
 def user_selection():
     while True:
         print()
-        userinput = input("Type QUIT to leave. ")
+        answer = input("Type QUIT to leave. ")
         print()
-        if userinput == answer:
+        if answer == "QUIT":
             print("That's correct. Have a nice day.")
             break
         else:
